@@ -4,8 +4,6 @@ import boto3
 
 """
 전체 RDS의 Subnet 확인.
-aws-vault exec --session-ttl=1h --assume-role-ttl=1h dataeng-prod
-cd rds/dataeng-prod/
 """
 def get_describe_db_clusters(**kwargs):
     res = kwargs['client'].describe_db_clusters(
