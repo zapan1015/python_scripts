@@ -1,0 +1,6 @@
+dataeng-prod (012481551608)	N. Virginia (us-east-1)	dataplatformairflow-airflow-use1-auroracluster	sb-dataplatformairflow-airflow-use1-read-replica-1	False
+dataeng-prod (012481551608)	N. Virginia (us-east-1)	dataplatformairflow-airflow-use1-auroracluster	sb-dataplatformairflow-airflow-use1-master-1	False
+dataeng-prod (012481551608)	Seoul (ap-northeast-2)	dataengairflow-airflow-asdf-auroracluster	sb-dataengairflow-airflow-asdf-master-1	False
+dataeng-prod (012481551608)	Seoul (ap-northeast-2)	dataplatformairflow-airflow-apne2-auroracluster	sb-dataplatformairflow-airflow-apne2-master-1	False
+dataeng-prod (012481551608)	Seoul (ap-northeast-2)	dataplatformairflow-airflow-apne2-auroracluster	sb-dataplatformairflow-airflow-apne2-read-replica-1	False
+
