@@ -4,8 +4,6 @@ import boto3
 
 """
 전체 RDS의 Instance Class 확인.
-av exec --session-ttl=1h --assume-role-ttl=1h infra-dataeng-prod
-cd rds/dataeng-prod/
 """
 aws_regions = (
     ('US East', 'Ohio', 'us-east-2'),
@@ -36,7 +34,7 @@ aws_regions = (
 """
 AWS Region 별로 client 를 생성해서 확인.
 """
-aws_account = "dataeng-prod (012481551608)"
+aws_account = "dataeng-prod ()"
 contents = ""
 for aws_region in aws_regions:
     aws_oceans_name = aws_region[0]
